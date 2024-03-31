@@ -57,8 +57,8 @@ function handleMenuItems() {
 
   // Highlight 'About' link when in about.html
   const currentPath = window.location.pathname;
-  if (currentPath.includes("index.html")) {
-    const aboutLink = document.querySelector('.navigation .menu li a[href="index.html"]');
+  if (currentPath.includes("about.html")) {
+    const aboutLink = document.querySelector('.navigation .menu li a[href="about.html"]');
     aboutLink.classList.add('active');
   }
 }
